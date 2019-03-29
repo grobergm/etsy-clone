@@ -15,11 +15,11 @@
       <div>Cart</div>
     </div>
   </div>
-  <div (mouseleave)='changeDrop(null)'>
+  <div class="drop-area" (mouseleave)='changeDrop(null)'>
     <ul class="lower-nav">
       <li *ngFor='let category of categories' (mouseenter)='changeDrop(category)'  >{{category.mainName}}</li>
-      <li>Vintage</li>
-      <li>Gifts 🎁</li>
+      <li (mouseenter)='changeDrop(null)'>Vintage</li>
+      <li (mouseenter)='changeDrop(null)'>Gifts 🎁</li>
     </ul>
     <app-navdrop *ngIf='selectedDrop' [catName]='selectedDrop'></app-navdrop>
   </div>
