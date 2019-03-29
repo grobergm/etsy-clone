@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-navdrop',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navdrop.component.scss']
 })
 export class NavdropComponent implements OnInit {
-
+  @Input() catName:string;
   constructor() { }
 
   ngOnInit() {
