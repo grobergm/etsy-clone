@@ -9,7 +9,7 @@ _The goal of this project is to use Angular to recreate the etsy website_
 ## Navbar
 * Main Nav
 ### DropDownNav
-
+The dropdown nav will display sub-categories, which will filter which products are displayed
 ## Page
 
 ### Home Page

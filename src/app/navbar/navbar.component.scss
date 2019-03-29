@@ -19,7 +19,12 @@ nav{
 
 li{
   list-style: none;
-  &:hover{
-    border-bottom:2px solid orange;
-  }
+}
+
+.underline-orange{
+  border-bottom:2px solid orange;
+}
+
+.no-subs:hover{
+  border-bottom:2px solid orange;
 }

@@ -18,4 +18,9 @@ export class NavbarComponent implements OnInit {
   changeDrop(page){
     this.selectedDrop=page;
   }
+  selectUnderline(selected){
+    if(selected === this.selectedDrop){
+      return 'underline-orange'
+    }
+  }
 }
