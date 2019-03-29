@@ -16,7 +16,7 @@
     </div>
   </div>
   <ul class="lower-nav">
-    <li *ngFor='let category of categories' (mouseover)='changeDrop(category)'>{{category}}</li>
+    <li *ngFor='let category of categories' (mouseenter)='changeDrop(category)' (mouseleave)='changeDrop(null)'>{{category}}</li>
   </ul>
 </nav>
-<app-navdrop></app-navdrop>
+<app-navdrop *ngIf='selectedDrop'></app-navdrop>
