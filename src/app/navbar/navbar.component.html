@@ -16,13 +16,7 @@
     </div>
   </div>
   <ul class="lower-nav">
-    <li>Jewlery & Accessories</li>
-    <li>Jewlery & Accessories</li>
-    <li>Jewlery & Accessories</li>
-    <li>Jewlery & Accessories</li>
-    <li>Jewlery & Accessories</li>
-    <li>Jewlery & Accessories</li>
-    <li>Jewlery & Accessories</li>
+    <li *ngFor='let category of categories' (mouseover)='changeDrop(category)'>{{category}}</li>
   </ul>
 </nav>
 <app-navdrop></app-navdrop>
