@@ -1,0 +1,21 @@
+nav{
+  width:100%;
+}
+
+.upper-nav{
+  display:flex;
+  justify-content:space-between;
+  padding: 15px 30px;
+  div{
+    display:flex;
+  }
+}
+
+.lower-nav{
+  display:flex;
+  justify-content:space-around;
+}
+
+li{
+  list-style: none;
+}
