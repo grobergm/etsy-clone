@@ -1,6 +1,29 @@
-# EtsyCloneScss
+# EtsyClone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+_The goal of this project is to use Angular to recreate the etsy website_
+
+
+# Components
+
+## Navbar
+* Main Nav
+### DropDownNav
+
+## Page
+### Home
+* Hero Banner
+#### Product Row
+##### Product
+
+
+### Category
+
+
+
+
+
+
+#Angular CLI notes:
 
 ## Development server
 
