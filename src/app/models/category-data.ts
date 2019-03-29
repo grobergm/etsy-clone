@@ -73,11 +73,29 @@ export const categoryData:object[]=
     subCats:
     [
       {
-        subName:'',
+        subName:'WOMEN\'S',
         subSubCats:[
           '',
         ]
-      }
+      },
+      {
+        subName:'MEN\'S',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'KIDS\' & BABY',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'BAGS & PURSES',
+        subSubCats:[
+          '',
+        ]
+      },
     ]
   },
   {
@@ -89,11 +107,23 @@ export const categoryData:object[]=
     subCats:
     [
       {
-        subName:'',
+        subName:'HOME',
         subSubCats:[
           '',
         ]
-      }
+      },
+      {
+        subName:'BATH & BEAUTY',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'PET SUPPLIES',
+        subSubCats:[
+          '',
+        ]
+      },
     ]
   },
   {
@@ -105,11 +135,53 @@ export const categoryData:object[]=
     subCats:
     [
       {
-        subName:'',
+        subName:'PARTY SUPPLIES',
         subSubCats:[
           '',
         ]
-      }
+      },
+      {
+        subName:'INVITATIONS & PAPER',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'WEDDING DECORATIONS',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'WEDDING GIFTS',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'WEDDING ACCESSORIES',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'WEDDING CLOTHING',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'WEDDING JEWELRY',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'ALL WEDDING',
+        subSubCats:[
+          '',
+        ]
+      },
     ]
   },
   {
@@ -121,11 +193,29 @@ export const categoryData:object[]=
     subCats:
     [
       {
-        subName:'',
+        subName:'TOYS',
         subSubCats:[
           '',
         ]
-      }
+      },
+      {
+        subName:'ELECTRONICS & ACCESSORIES',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'BOOKS',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'MOVIES & MUSIC',
+        subSubCats:[
+          '',
+        ]
+      },
     ]
   },
   {
@@ -137,11 +227,65 @@ export const categoryData:object[]=
     subCats:
     [
       {
-        subName:'',
+        subName:'Prints',
         subSubCats:[
           '',
         ]
-      }
+      },
+      {
+        subName:'Photography',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'Painting',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'Sculpture',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'Glass Art',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'Drawing & Illustration',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'Mixed Media & Collage',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'Fiber Arts',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'Dolls & Miniatures',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'Collectibles',
+        subSubCats:[
+          '',
+        ]
+      },
     ]
   },
   {
@@ -153,43 +297,41 @@ export const categoryData:object[]=
     subCats:
     [
       {
-        subName:'',
+        subName:'HOME & HOBBY',
         subSubCats:[
           '',
         ]
-      }
-    ]
-  },
-  {
-    mainName:'Vintage',
-    editorPick:{
-      img:'',
-      name:''
-    },
-    subCats:
-    [
+      },
       {
-        subName:'',
+        subName:'JEWELRY & BEAUTY',
         subSubCats:[
           '',
         ]
-      }
-    ]
-  },
-  {
-    mainName:'Gifts 🎁',
-    editorPick:{
-      img:'',
-      name:''
-    },
-    subCats:
-    [
+      },
       {
-        subName:'',
+        subName:'SEWING & FIBER',
         subSubCats:[
           '',
         ]
-      }
+      },
+      {
+        subName:'PAPERCRAFT',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'VISUAL ARTS',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'SCULPTING & FORMING',
+        subSubCats:[
+          '',
+        ]
+      },
     ]
   }
 ]
