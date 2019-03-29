@@ -2,6 +2,7 @@
 
 _The goal of this project is to use Angular to recreate the etsy website_
 
+**Headers in bold will be components**
 
 # Components
 
@@ -10,18 +11,20 @@ _The goal of this project is to use Angular to recreate the etsy website_
 ### DropDownNav
 
 ## Page
-### Home
+
+### Home Page
 * Hero Banner
 #### Product Row
 ##### Product
+* Collections
+* Gifts
+* Blogs
+* Footer
 
-
-### Category
-
-
-
-
-
+### Category Page
+#### SideBar
+#### Product List
+##### Product
 
 #Angular CLI notes:
 
