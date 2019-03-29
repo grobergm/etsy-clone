@@ -1,4 +1,4 @@
 <p>
   product-list works!
 </p>
-<app-product></app-product>
+<app-product *ngFor='let product of products' [data]='product'></app-product>
