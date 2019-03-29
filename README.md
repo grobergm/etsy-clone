@@ -19,12 +19,16 @@ _The goal of this project is to use Angular to recreate the etsy website_
 * Collections
 * Gifts
 * Blogs
-* Footer
+* FootBanner
+#### Footer
 
 ### Category Page
 #### SideBar
 #### Product List
 ##### Product
+#### Product Row
+Recently Viewed products
+#### Footer
 
 #Angular CLI notes:
 
