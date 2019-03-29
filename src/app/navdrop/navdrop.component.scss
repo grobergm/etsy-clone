@@ -1,1 +1,13 @@
+.drop-nav{
+  display:flex;
+  justify-content:space-between;
+}
 
+.mid-drop{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
+
+li{
+  padding:7px;
+}

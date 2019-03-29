@@ -1,4 +1,12 @@
 <div class='drop-nav'>
-  <li>All {{catName.mainName}}</li>
-  <li *ngFor='let sub of catName.subCats'>{{sub.subName | uppercase}}</li>
+  <div class="left-drop">
+    <li>All {{catName.mainName}}</li>
+    <li *ngFor='let sub of catName.subCats' (mouseenter)='changeSide(sub)'>{{sub.subName | uppercase}}</li>
+  </div>
+  <div class="mid-drop">
+    <li *ngFor='let subsub of subCategory.subSubCats'>{{subsub}}</li>
+  </div>
+  <div class="right-drop">
+    
+  </div>
 </div>

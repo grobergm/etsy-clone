@@ -6,10 +6,14 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./navdrop.component.scss']
 })
 export class NavdropComponent implements OnInit {
-  @Input() catName:object;
+  @Input() catName:any;
+  subCategory:any;
   constructor() { }
 
   ngOnInit() {
+    this.subCategory=this.catName.subCats[0];
   }
-
+  changeSide(selected){
+    this.subCategory=selected;
+  }
 }
