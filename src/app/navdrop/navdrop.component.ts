@@ -16,4 +16,9 @@ export class NavdropComponent implements OnInit {
   changeSide(selected){
     this.subCategory=selected;
   }
+  highlight(selected){
+    if (selected===this.subCategory){
+      return 'highlight';
+    }
+  }
 }
