@@ -11,49 +11,101 @@ export const categoryData:object[]=
       {
         subName:'ACCESSORIES',
         subSubCats:[
-          '',
-        ]
-      },
-      {
-        subName:'ACCESSORIES',
-        subSubCats:[
-          '',
+          'Hats & Caps',
+          'Hair Accessories',
+          'Headbands',
+          'Fascinators & Mini Hats',
+          'Wreaths & Tiaras',
+          'Sunglasses & Eyewear',
+          'Scarves & Wraps',
+          'Belts & Suspenders',
+          'Keychains & Lanyards',
+          'Umbrellas & Rain Accessories'
         ]
       },
       {
         subName:'BAGS & PURSES',
         subSubCats:[
-          '',
+          'Backpacks',
+          'Handbags',
+          'Clutches & Evening Bags',
+          'Shoulder Bags',
+          'Diaper Bags',
+          'Luggage & Duffel Bags',
+          'Phone Cases'
         ]
       },
       {
         subName:'NECKLACES',
         subSubCats:[
-          '',
+          'Pendants',
+          'Chokers',
+          'Charm Necklaces',
+          'Crystal Necklaces',
+          'Monogram & Name Necklaces',
+          'Beaded Necklaces',
+          'Chains',
+          'Bib Necklaces',
+          'Tassel Necklaces'
         ]
       },
       {
         subName:'RINGS',
         subSubCats:[
-          '',
+          'Stackable Rings',
+          'Statement Rings',
+          'Bands',
+          'Signet Rings',
+          'Multistone Rings',
+          'Solitaire Rings',
+          'Midi Rings',
+          'Wedding & Engagement',
+          'Engagement Rings',
+          'Wedding Bands',
+          'Promise Rings',
+          'Bridal Sets',
+          'ALL RINGS'
         ]
       },
       {
         subName:'EARRINGS',
         subSubCats:[
-          '',
+          'Dangle & Drop Earrings',
+          'Stud Earrings',
+          'Hoop Earrings',
+          'Chandelier Earrings',
+          'Ear Jackets & Climbers',
+          'Cluster Earrings',
+          'Cuff & Wrap Earrings',
+          'Clip On Earrings',
+          'ALL EARRINGS'
         ]
       },
       {
         subName:'BRACELETS',
         subSubCats:[
-          '',
+          'Beaded Bracelets',
+          'Bangles',
+          'Charm Bracelets',
+          'Woven & Braided Bracelets',
+          'Cuff Bracelets',
+          'Chain & Link Bracelets',
+          'ALL BRACELETS',
         ]
       },
       {
         subName:'BODY JEWLERY',
         subSubCats:[
-          '',
+          'Anklets',
+          'Hair Jewelry',
+          'Nose Rings & Studs',
+          'Arm Bands',
+          'Nipple Jewelry',
+          'Belly Rings',
+          'Shoulder Jewelry',
+          'Toe Rings',
+          'Lip Rings',
+          'ALL BODY JEWELRY'
         ]
       },
       {
