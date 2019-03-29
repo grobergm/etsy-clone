@@ -1,42 +1,48 @@
 export const productData=[
   {
-    img:'',
-    description:'../assets/unicorn.jpg',
+    img:'../assets/unicorn.jpg',
+    description:'beautiful unicorn earrings',
+    vendor:'magic-jewlers',
     price: 5,
     stars: 3,
     badge: 'free-ship',
     tags: ['earrings','jewlery','unicorn']
   },
   {
-    img:'',
-    description:'../assets/unicorn.jpg',
-    price: 2,
+    img:'../assets/unicorn.jpg',
+    description:'beautiful unicorn earrings',
+    vendor:'magic-jewlers',
+    price: 5,
     stars: 3,
     badge: 'free-ship',
     tags: ['earrings','jewlery','unicorn']
   },
   {
-    img:'',
-    description:'../assets/unicorn.jpg',
-    price: 4,
+    img:'../assets/unicorn.jpg',
+    description:'beautiful unicorn earrings',
+    vendor:'magic-jewlers',
+    price: 5,
     stars: 3,
     badge: 'free-ship',
     tags: ['earrings','jewlery','unicorn']
   },
   {
-    img:'',
-    description:'../assets/unicorn.jpg',
-    price: 2,
+    img:'../assets/unicorn.jpg',
+    description:'beautiful unicorn earrings',
+    vendor:'magic-jewlers',
+    price: 5,
     stars: 3,
     badge: 'free-ship',
     tags: ['earrings','jewlery','unicorn']
   },
   {
-    img:'',
-    description:'../assets/unicorn.jpg',
-    price: 17,
+    img:'../assets/unicorn.jpg',
+    description:'beautiful unicorn earrings',
+    vendor:'magic-jewlers',
+    price: 5,
     stars: 3,
     badge: 'free-ship',
     tags: ['earrings','jewlery','unicorn']
   },
+
 ]
