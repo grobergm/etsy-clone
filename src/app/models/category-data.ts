@@ -107,13 +107,7 @@ export const categoryData:object[]=
           'Lip Rings',
           'ALL BODY JEWELRY'
         ]
-      },
-      {
-        subName:'ALL JEWLERY',
-        subSubCats:[
-          '',
-        ]
-      },
+      }
     ]
   },
   {

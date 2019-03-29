@@ -7,13 +7,15 @@ _The goal of this project is to use Angular to recreate the etsy website_
 # Components
 
 ## Navbar
-* Main Nav
-### DropDownNav
-The dropdown nav will display sub-categories, which will filter which products are displayed
-## Page
+The Main Navbar will include links to navigate to different pages within the site. It will also contain the Drop-down Nav component. Currently there is only one page.
 
-### Home Page
-* Hero Banner
+### DropDownNav
+ It will display sub-categories, which will filter which products are displayed, based on their category. Currently it displays three tiers of categories, but they do not change the products listed yet.
+
+## Home Page
+This page will be its own component, since it differs from the main layout of the other page components.
+It will have a Hero banner, a Product Row component (which will contain highlighted Product Components).
+Next it will have a sections for collections, gifts, blogs, and a lower banner. This component will be shown when the Main logo is clicked.
 #### Product Row
 ##### Product
 * Collections
