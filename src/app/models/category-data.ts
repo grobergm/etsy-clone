@@ -2,18 +2,74 @@ export const categoryData:object[]=
 [
   {
     mainName:'Jewlery & Accessories',
+    editorPick:{
+      img:'',
+      name:''
+    },
     subCats:
     [
       {
-        subName:'',
+        subName:'ACCESSORIES',
         subSubCats:[
           '',
         ]
-      }
+      },
+      {
+        subName:'ACCESSORIES',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'BAGS & PURSES',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'NECKLACES',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'RINGS',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'EARRINGS',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'BRACELETS',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'BODY JEWLERY',
+        subSubCats:[
+          '',
+        ]
+      },
+      {
+        subName:'ALL JEWLERY',
+        subSubCats:[
+          '',
+        ]
+      },
     ]
   },
   {
     mainName:'Clothing & Shoes',
+    editorPick:{
+      img:'',
+      name:''
+    },
     subCats:
     [
       {
@@ -26,6 +82,10 @@ export const categoryData:object[]=
   },
   {
     mainName:'Home & Living',
+    editorPick:{
+      img:'',
+      name:''
+    },
     subCats:
     [
       {
@@ -38,6 +98,10 @@ export const categoryData:object[]=
   },
   {
     mainName:'Wedding & Party',
+    editorPick:{
+      img:'',
+      name:''
+    },
     subCats:
     [
       {
@@ -50,6 +114,10 @@ export const categoryData:object[]=
   },
   {
     mainName:'Toys & Entertainment',
+    editorPick:{
+      img:'',
+      name:''
+    },
     subCats:
     [
       {
@@ -62,6 +130,10 @@ export const categoryData:object[]=
   },
   {
     mainName:'Art & Collectibles',
+    editorPick:{
+      img:'',
+      name:''
+    },
     subCats:
     [
       {
@@ -74,6 +146,10 @@ export const categoryData:object[]=
   },
   {
     mainName:'Craft Supplies',
+    editorPick:{
+      img:'',
+      name:''
+    },
     subCats:
     [
       {
@@ -86,6 +162,10 @@ export const categoryData:object[]=
   },
   {
     mainName:'Vintage',
+    editorPick:{
+      img:'',
+      name:''
+    },
     subCats:
     [
       {
@@ -98,6 +178,10 @@ export const categoryData:object[]=
   },
   {
     mainName:'Gifts 🎁',
+    editorPick:{
+      img:'',
+      name:''
+    },
     subCats:
     [
       {
