@@ -7,7 +7,7 @@ import { categoryData } from '../models/category-data';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  selectedDrop:string = null;
+  selectedDrop:string;
   categories:object[]=categoryData;
   constructor() { }
 

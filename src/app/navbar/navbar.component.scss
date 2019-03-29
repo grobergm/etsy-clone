@@ -1,5 +1,7 @@
 nav{
   width:100%;
+  position:absolute;
+  top:0;
 }
 
 .upper-nav{
@@ -19,6 +21,6 @@ nav{
 li{
   list-style: none;
   &:hover{
-    border-bottom:2px solid orange
+    border-bottom:2px solid orange;
   }
 }
