@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./navdrop.component.scss']
 })
 export class NavdropComponent implements OnInit {
-  @Input() catName:string;
+  @Input() catName:object;
   constructor() { }
 
   ngOnInit() {

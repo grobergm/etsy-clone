@@ -8,7 +8,7 @@ import { categoryData } from '../models/category-data';
 })
 export class NavbarComponent implements OnInit {
   selectedDrop:string = null;
-  categories:string[]=categoryData;
+  categories:object[]=categoryData;
   constructor() { }
 
   ngOnInit() {

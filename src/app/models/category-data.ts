@@ -1,12 +1,111 @@
-export const categoryData:string[]=
+export const categoryData:object[]=
 [
-'Jewlery & Accessories',
-'Clothing & Shoes',
-'Home & Living',
-'Wedding & Party',
-'Toys & Entertainment',
-'Art & Collectibles',
-'Craft Supplies',
-'Vintage',
-'Gifts'
+  {
+    mainName:'Jewlery & Accessories',
+    subCats:
+    [
+      {
+        subName:'',
+        subSubCats:[
+          '',
+        ]
+      }
+    ]
+  },
+  {
+    mainName:'Clothing & Shoes',
+    subCats:
+    [
+      {
+        subName:'',
+        subSubCats:[
+          '',
+        ]
+      }
+    ]
+  },
+  {
+    mainName:'Home & Living',
+    subCats:
+    [
+      {
+        subName:'',
+        subSubCats:[
+          '',
+        ]
+      }
+    ]
+  },
+  {
+    mainName:'Wedding & Party',
+    subCats:
+    [
+      {
+        subName:'',
+        subSubCats:[
+          '',
+        ]
+      }
+    ]
+  },
+  {
+    mainName:'Toys & Entertainment',
+    subCats:
+    [
+      {
+        subName:'',
+        subSubCats:[
+          '',
+        ]
+      }
+    ]
+  },
+  {
+    mainName:'Art & Collectibles',
+    subCats:
+    [
+      {
+        subName:'',
+        subSubCats:[
+          '',
+        ]
+      }
+    ]
+  },
+  {
+    mainName:'Craft Supplies',
+    subCats:
+    [
+      {
+        subName:'',
+        subSubCats:[
+          '',
+        ]
+      }
+    ]
+  },
+  {
+    mainName:'Vintage',
+    subCats:
+    [
+      {
+        subName:'',
+        subSubCats:[
+          '',
+        ]
+      }
+    ]
+  },
+  {
+    mainName:'Gifts 🎁',
+    subCats:
+    [
+      {
+        subName:'',
+        subSubCats:[
+          '',
+        ]
+      }
+    ]
+  }
 ]
