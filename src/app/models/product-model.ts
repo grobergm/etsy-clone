@@ -1,4 +1,5 @@
 export class Product {
+  public id:number;
   public img:string;
   public description:string;
   public vendor: string;

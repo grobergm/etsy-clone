@@ -1,5 +1,6 @@
 export const productData=[
   {
+    id:1,
     img:'../assets/unicorn.jpg',
     description:'beautiful unicorn earrings',
     vendor:'magic-jewlers',
@@ -9,6 +10,7 @@ export const productData=[
     tags: ['earrings','jewlery','unicorn']
   },
   {
+    id:2,
     img:'../assets/mug.jpg',
     description:'a mug just for programmers',
     vendor:'Hackers/Slackers',
@@ -18,6 +20,7 @@ export const productData=[
     tags: ['earrings','jewlery','unicorn']
   },
   {
+    id:3,
     img:'../assets/book.jpg',
     description:'beautiful unicorn earrings',
     vendor:'magic-jewlers',
@@ -27,6 +30,7 @@ export const productData=[
     tags: ['earrings','jewlery','unicorn']
   },
   {
+    id:4,
     img:'../assets/camera.jpg',
     description:'a fantastic camera',
     vendor:'neto cam',
@@ -36,6 +40,7 @@ export const productData=[
     tags: ['earrings','jewlery','unicorn']
   },
   {
+    id:5,
     img:'../assets/crystals.jpg',
     description:'magical crystals',
     vendor:'magic-jewlers',
@@ -45,6 +50,7 @@ export const productData=[
     tags: ['earrings','jewlery','unicorn']
   },
   {
+    id:6,
     img:'../assets/programmer.jpg',
     description:'a programmer shirt just for you',
     vendor:'WeCode',
@@ -54,6 +60,7 @@ export const productData=[
     tags: ['earrings','jewlery','unicorn']
   },
   {
+    id:7,
     img:'../assets/watches.jpg',
     description:'collectors edition watches',
     vendor:'Mr Watch',
@@ -63,6 +70,7 @@ export const productData=[
     tags: ['earrings','jewlery','unicorn']
   },
   {
+    id:8,
     img:'../assets/farthing.jpg',
     description:'antique farthing',
     vendor:'coins-collectables',
@@ -72,6 +80,7 @@ export const productData=[
     tags: ['earrings','jewlery','unicorn']
   },
   {
+    id:9,
     img:'../assets/octopus.jpg',
     description:'octoput drums',
     vendor:'magic-jewlers',
