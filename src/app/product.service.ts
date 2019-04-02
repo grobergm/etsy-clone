@@ -1,22 +1,21 @@
 import { Injectable } from '@angular/core';
-import { productData } from './models/product-data'
-import { Product } from './models/product-model'
+import { productData } from './models/product-data';
+import { Product } from './models/product-model';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()
 export class ProductService {
-
-  constructor() { }
-
-  getAlbums() {
-    return productData;
+  products: FirebaseListObservable<any[]>;
+  constructor(private database: AngularFireDatabase) {
+    this.products=database.list('products')
   }
 
-  getAlbumById(albumId: number){
-    for (var i = 0; i <= productData.length - 1; i++) {
-      if (productData[i].id === albumId) {
-        return productData[i];
-      }
-    }
+  getProducts() {
+    return this.products;
+  }
+
+  getProductById(productId: number){
+    return this.database.object('products/'+productId)
   }
 
 }
