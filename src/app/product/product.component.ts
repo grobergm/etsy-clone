@@ -11,13 +11,16 @@ import { Location } from '@angular/common';
 })
 export class ProductComponent implements OnInit {
   @Input() data: Product;
-  selected:string;
+  selected:string='all';
   constructor(private route: ActivatedRoute,
-    private location: Location,) { }
+    private location: Location) { }
 
   ngOnInit() {
     this.route.params.forEach((urlParam)=>{
-      this.selected=urlParam['category'];
+      if(urlParam['category']){
+        this.selected=urlParam['category'];
+      }
+      console.log(this.selected);
     })
   }
 

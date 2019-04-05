@@ -1,4 +1,4 @@
-<div *ngIf='data.category === selected'>
+<div *ngIf='data.category === selected || selected === "all"' >
   <img src="{{data.img}}" alt="{{data.description}}">
   <p>{{data.description}}</p>
   <p>{{data.vendor}}</p>
