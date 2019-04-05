@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@mixin mediaMax($max){
+  @media screen and (max-width:$max){
+    @content;
+  }
+}
+
+
 body{
   text-align:center;
 }

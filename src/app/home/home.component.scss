@@ -1,9 +1,20 @@
+@mixin mediaMax($max){
+  @media screen and (max-width:$max){
+    @content;
+  }
+}
+
+
 .banner{
   display:grid;
   grid-template-columns: 70vw 20vw;
-  grid-template-rows: 60% 25%;
+  grid-template-rows: 220px 100px;
   grid-gap:2.5vw;
-  height:320px;
+  @include mediaMax(1000px){
+    grid-template-columns:70vw 25vw;
+    grid-template-rows: 320px 150px;
+  }
+  // height:320px;
 }
 
 .left-pannel{
@@ -11,10 +22,16 @@
   grid-area: 1 / 1 / 3 / 2;
   display:grid;
   grid-template-columns: 1fr 3fr;
-  img{
-    // height:100%;
-    width:100%;
+  overflow:hidden;
+  @include mediaMax(1000px){
+    grid-area: 1 / 1 / 2 / 3;
   }
+}
+
+#broche{
+  background-image:url('../../assets/broche.jpg');
+  background-size:cover;
+  background-position:left;
 }
 
 .yellow-text{
