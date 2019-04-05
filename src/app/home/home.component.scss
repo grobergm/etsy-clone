@@ -1,15 +1,18 @@
 .banner{
   display:grid;
   grid-template-columns: 70vw 20vw;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 60% 25%;
   grid-gap:2.5vw;
+  height:320px;
 }
 
 .left-pannel{
+  width:100%;
   grid-area: 1 / 1 / 3 / 2;
   display:grid;
   grid-template-columns: 1fr 3fr;
   img{
+    height:100%;
     width:100%;
   }
 }
@@ -20,4 +23,14 @@
   display:flex;
   flex-direction:column;
   justify-content:center;
+}
+
+.explore{
+  background-image: url('../../assets/mirror.jpg');
+  background-size:cover;
+  background-position:center center;
+}
+
+.checks-row{
+  display:flex;
 }
