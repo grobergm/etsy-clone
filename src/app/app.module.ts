@@ -12,12 +12,10 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductComponent } from './product/product.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { HomePageComponent } from './home-page/home-page.component';
 import { HomeComponent } from './home/home.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
-// import { AdminComponent } from './admin/admin.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 export const firebaseConfig = {
@@ -39,7 +37,6 @@ export const firebaseConfig = {
     ProductComponent,
     FooterComponent,
     SidebarComponent,
-    HomePageComponent,
     HomeComponent,
     ProductDetailComponent
   ],
