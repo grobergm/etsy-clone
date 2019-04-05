@@ -1,18 +1,18 @@
 <nav>
   <div class="upper-nav">
     <div>
-      <h2>Matsy</h2>
+      <h2 id="logo" routerLink=''>Matsy</h2>
       <div class="search">
         <input type="text" placeholder="Search for items or shops">
         <button type="button">Search</button>
       </div>
     </div>
-    <div>
-      <div>Sell on Matsy</div>
-      <div>Discover</div>
-      <div>Notifications</div>
-      <div>You</div>
-      <div>Cart</div>
+    <div class="nav-links">
+      <li>Sell on Matsy</li>
+      <li>Discover</li>
+      <li>Notifications</li>
+      <li>You</li>
+      <li>Cart</li>
     </div>
   </div>
   <div class="drop-area" (mouseleave)='changeDrop(null)'>

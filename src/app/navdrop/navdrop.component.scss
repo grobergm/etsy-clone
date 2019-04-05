@@ -1,6 +1,10 @@
 .drop-nav{
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
-  justify-content:space-between;
+  -webkit-box-pack:justify;
+      -ms-flex-pack:justify;
+          justify-content:space-between;
 }
 
 .mid-drop{
@@ -13,5 +17,5 @@ li{
 }
 
 .highlight{
-  background-color:orange;
+  background-color:#FBEAD8;
 }
