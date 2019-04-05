@@ -1,5 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Product } from '../models/product-model';
+import { ActivatedRoute, Params } from '@angular/router';
+import { Location } from '@angular/common';
+
 
 @Component({
   selector: 'app-product',
@@ -8,9 +11,14 @@ import { Product } from '../models/product-model';
 })
 export class ProductComponent implements OnInit {
   @Input() data: Product;
-  constructor() { }
+  selected:string;
+  constructor(private route: ActivatedRoute,
+    private location: Location,) { }
 
   ngOnInit() {
+    this.route.params.forEach((urlParam)=>{
+      this.selected=urlParam['category'];
+    })
   }
 
 }

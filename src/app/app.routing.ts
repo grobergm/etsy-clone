@@ -10,7 +10,7 @@ const appRoutes: Routes = [
     component: HomeComponent
   },
   {
-    path:'page',
+    path:'page/:category',
     component: PageComponent
   },
   {

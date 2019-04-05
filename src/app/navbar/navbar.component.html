@@ -17,8 +17,8 @@
   </div>
   <div class="drop-area" (mouseleave)='changeDrop(null)'>
     <ul class="lower-nav">
-      <li [class]='selectUnderline(category)' *ngFor='let category of categories' (mouseenter)='changeDrop(category)'>{{category.mainName}}</li>
-      <li class="no-subs" (mouseenter)='changeDrop(null)'>Vintage</li>
+      <li [class]='selectUnderline(category)' *ngFor='let category of categories' (mouseenter)='changeDrop(category)' routerLink='page/{{category.mainName}}'>{{category.mainName}}</li>
+      <li class="no-subs" (mouseenter)='changeDrop(null)' routerLink='page/Vintage'>Vintage</li>
       <li class="no-subs" (mouseenter)='changeDrop(null)'>Gifts 🎁</li>
     </ul>
     <app-navdrop *ngIf='selectedDrop' [catName]='selectedDrop'></app-navdrop>
