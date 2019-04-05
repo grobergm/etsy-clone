@@ -17,3 +17,21 @@ width:100%;
 .see-more{
   font-size:1rem;
 }
+
+.flex{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+}
+
+.collection{
+  width:45vw;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  img{
+    width:50%;
+    -ms-flex-item-align:center;
+        align-self:center;
+  }
+}
