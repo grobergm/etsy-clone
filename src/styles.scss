@@ -1,13 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
-@mixin mediaMax($max){
-  @media screen and (max-width:$max){
-    @content;
-  }
-}
-
+@import url('https://fonts.googleapis.com/css?family=Lora');
 
 body{
   text-align:center;
+  font-family: 'Lora', serif;
+}
+
+h1{
+  font-weight:normal;
+
 }
 
 li{
