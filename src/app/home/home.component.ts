@@ -10,10 +10,13 @@ import { FirebaseListObservable } from 'angularfire2/database';
 })
 export class HomeComponent implements OnInit {
   reviews:FirebaseListObservable<any[]>;
+  blogs:FirebaseListObservable<any[]>;
+
   constructor(private productService: ProductService) { }
 
   ngOnInit() {
     this.reviews=this.productService.getReviews();
+    this.blogs=this.productService.getBlogs();
   }
 
 }

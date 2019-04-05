@@ -70,3 +70,7 @@
 <div class="flex">
   <app-review *ngFor='let review of reviews | async' [data]='review'></app-review>
 </div>
+<h3>Fresh from the blog <span class="see-more">Read blog</span></h3>
+<div class="flex">
+  <app-blog *ngFor='let blog of blogs | async' [data]='blog'></app-blog>
+</div>

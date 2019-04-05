@@ -7,9 +7,11 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 export class ProductService {
   products: FirebaseListObservable<any[]>;
   reviews: FirebaseListObservable<any[]>;
+  blogs: FirebaseListObservable<any[]>;
   constructor(private database: AngularFireDatabase) {
     this.products=database.list('products');
     this.reviews=database.list('reviews');
+    this.blogs=database.list('blogs');
   }
 
   getProducts() {
@@ -19,6 +21,11 @@ export class ProductService {
   getReviews() {
     return this.reviews;
   }
+
+  getBlogs(){
+    return this.blogs;
+  }
+
   getProductById(productId: number){
     return this.database.object('products/'+productId)
   }
