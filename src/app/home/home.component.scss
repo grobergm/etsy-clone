@@ -44,6 +44,14 @@
   display:flex;
 }
 
+.suggested-row{
+width:100vw;
+-ms-flex-wrap:nowrap;
+    flex-wrap:nowrap;
+overflow:hidden;
+}
+
+
 .what-is-etsy{
   padding:18px;
   background-color:#FDEBD2;
