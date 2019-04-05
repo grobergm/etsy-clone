@@ -66,6 +66,7 @@
   <p>Have a question? Well, we’ve got some answers.</p><br>
   <a class="sp-Button" href="#">Go to Help Center</a>
 </div>
-<div class="reviews">
-  
+<h3>Recent reviews from happy people</h3>
+<div class="flex">
+  <app-review *ngFor='let review of reviews | async' [data]='review'></app-review>
 </div>
