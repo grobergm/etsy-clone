@@ -9,7 +9,8 @@ import { FirebaseListObservable } from 'angularfire2/database';
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.scss']
+  styleUrls: ['./product-list.component.scss'],
+  providers: [ProductService]
 })
 export class ProductListComponent implements OnInit {
   products:FirebaseListObservable<any[]>;

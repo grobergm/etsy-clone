@@ -17,7 +17,7 @@ import { HomeComponent } from './home/home.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
-import { AdminComponent } from './admin/admin.component';
+// import { AdminComponent } from './admin/admin.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 export const firebaseConfig = {
@@ -41,7 +41,6 @@ export const firebaseConfig = {
     SidebarComponent,
     HomePageComponent,
     HomeComponent,
-    AdminComponent,
     ProductDetailComponent
   ],
   imports: [
