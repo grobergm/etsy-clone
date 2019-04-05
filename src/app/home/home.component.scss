@@ -12,7 +12,7 @@
   display:grid;
   grid-template-columns: 1fr 3fr;
   img{
-    height:100%;
+    // height:100%;
     width:100%;
   }
 }
@@ -20,9 +20,16 @@
 .yellow-text{
   background-color: #FDD95C;
   padding:18px;
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
-  flex-direction:column;
-  justify-content:center;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
 }
 
 .explore{
@@ -32,5 +39,12 @@
 }
 
 .checks-row{
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
+}
+
+.what-is-etsy{
+  padding:18px;
+  background-color:#FDEBD2;
 }
